@@ -11,19 +11,44 @@
 <body>
   <main>
     <div class="slider__container">
-      <div class="silder__slide-container">
-        <div class="slider__slides-band"></div>
+      <input type="radio" id="radio1" name="pin's group" checked>
+      <input type="radio" id="radio2" name="pin's group">
+      <input type="radio" id="radio3" name="pin's group">
+      <input type="radio" id="radio4" name="pin's group">
+      <input type="radio" id="radio5" name="pin's group">
+      <div class="slider__slide-container">
+        <div class="slider__slides-band">
+          <div class="slider__slides-band_slide">
+            <img src="./Assets/JPG/Image_1.jpg" alt="">
+          </div>
+          <div class="slider__slides-band_slide">
+            <img src="./Assets/JPG/Image_2.jpg" alt="">
+          </div>
+          <div class="slider__slides-band_slide">
+            <img src="./Assets/JPG/Image_3.jpg" alt="">
+          </div>
+          <div class="slider__slides-band_slide">
+            <img src="./Assets/JPG/Image_4.jpg" alt="">
+          </div>
+          <div class="slider__slides-band_slide">
+            <img src="./Assets/JPG/Image_5.jpg" alt="">
+          </div>
+        </div>
       </div>
       <div class="slider__bottom-panel">
         <div class="slider__slide-text">
-          <p></p>
+          <p id="text1">Уже 6 часов утра, Наташ!</p>
+          <p id="text2">Когда ребенок за которым тебя попросили <br>присмотерть, берет вилку и сует в розетку.</p>
+          <p id="text3">Когда получил зарплату</p>
+          <p id="text4">Как вежливо объяснить человеку, что не нужно ставить грязные ноги на пороги твоей машины</p>
+          <p id="text5">Мда, скучно...</p>
         </div>
-        <div class="slider__slide-remote">
-          <input type="radio" name="remote-pin" checked>
-          <input type="radio" name="remote-pin">
-          <input type="radio" name="remote-pin">
-          <input type="radio" name="remote-pin">
-          <input type="radio" name="remote-pin">
+        <div class="slider__remote">
+          <label class="slider__remote-pin" id="label1" for="radio1"></label>
+          <label class="slider__remote-pin" id="label2" for="radio2"></label>
+          <label class="slider__remote-pin" id="label3" for="radio3"></label>
+          <label class="slider__remote-pin" id="label4" for="radio4"></label>
+          <label class="slider__remote-pin" id="label5" for="radio5"></label>
         </div>
       </div>
     </div>
