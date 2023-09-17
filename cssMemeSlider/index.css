@@ -21,7 +21,7 @@
 
 body,
 html {
-  background-color: #25282a;
+  background-color: var(--color-dark);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -235,13 +235,6 @@ h1 {
     margin: -0.7rem;
   }
 }
-
-/* @media (orientation: landscape) {
-  :root {
-    --slider-width: 73vw;
-    --slider-height: 41vw;
-  }
-} */
 
 @media (orientation: portrait) {
   :root {
