@@ -151,7 +151,7 @@ h1 {
   border-radius: 50%;
 }
 
-.slider__remote-pin:hover {
+.slider__remote-pin_over:hover .slider__remote-pin {
   border-color: var(--color-main);
   background: var(--color-main);
 }
