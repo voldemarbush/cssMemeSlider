@@ -134,21 +134,21 @@ h1 {
 }
 
 .slider__remote-pin {
-  width: 1rem;
-  height: 1rem;
+  width: 70%;
+  height: 70%;
   border: 0.2rem var(--color-blue) solid;
   background: var(--color-blue);
   border-radius: 50%;
-  margin: 0 0.5rem;
   cursor: pointer;
 }
 
-.slider__remote-pin::before {
-  content: '';
-  display: block;
+.slider__remote-pin_over {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 2.4rem;
   height: 2.4rem;
-  margin: -0.7rem;
+  margin: 0 0.2rem;
 }
 
 .slider__remote-pin:hover {
