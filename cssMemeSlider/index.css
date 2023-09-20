@@ -1,6 +1,7 @@
 :root {
   --color-main: #fefefe;
   --color-dark: #25282a;
+  --color-light: #a6b2bc;
   --color-gray: #44494d;
   --color-blue: #71abfe;
 
@@ -154,6 +155,11 @@ h1 {
 .slider__remote-pin_over:hover .slider__remote-pin {
   border-color: var(--color-main);
   background: var(--color-main);
+}
+
+.slider__remote-pin_over:active .slider__remote-pin {
+  border-color: var(--color-light);
+  background: var(--color-light);
 }
 
 #radio1:checked
